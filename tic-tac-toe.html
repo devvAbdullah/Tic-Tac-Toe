@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+    <h1 class="title"> TIC-TAC-TOE</h1>
+    <h3 class="x">First turn is of Player "X" </h3>
+    <h3 class="o">Second turn is of Player "O"</h3>
+    
+    <div class="container">
+
+        <input type="text" class="box b1" id="b1" readonly  >
+        <input type="text" class="box" id="b2"readonly onclick="myfunc2(); myfunc(); ">
+        <input type="text" class="box"id="b3" readonly onclick="myfunc3(); myfunc(); ">
+        <input type="text" class="box" id="b4"readonly onclick="myfunc4(); myfunc(); ">
+        <input type="text" class="box" id="b5"readonly onclick="myfunc5(); myfunc(); ">
+        <input type="text" class="box" id="b6"readonly onclick="myfunc6(); myfunc();">
+        <input type="text" class="box" id="b7"readonly onclick="myfunc7(); myfunc(); ">
+        <input type="text" class="box" id="b8"readonly onclick="myfunc8(); myfunc(); ">
+        <input type="text" class="box" id="b9"readonly onclick="myfunc9(); myfunc(); ">
+
+
+
+    </div>
+
+    <div class="result" id="result"></div>
+    <button class="refresh" id="refresh" onclick="refresh()">Restart  </button>
+
+
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>
+

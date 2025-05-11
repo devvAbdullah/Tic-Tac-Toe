@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+  color: white;
+}
+.container {
+  display: block;
+  width: 302px;
+  margin: auto;
+  height: auto;
+}
+.box {
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  margin-left: -5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+
+}
+.x {
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+.o {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+body{
+    background-color: teal;
+}
+.refresh{
+    margin-left: 1000px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
